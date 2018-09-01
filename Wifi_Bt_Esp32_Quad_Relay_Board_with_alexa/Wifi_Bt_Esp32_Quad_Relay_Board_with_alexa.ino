@@ -238,7 +238,7 @@ intTriggeredCount++;
 //-------------- void's -------------------------------------------------------------------------------------
 void setup() {
   Serial.begin(115200);
-  WiFi.printDiag(Serial);
+ // WiFi.printDiag(Serial);
   //WiFi.disconnect();
   delay(100);
 #ifdef ARDUINO_ARCH_ESP32
